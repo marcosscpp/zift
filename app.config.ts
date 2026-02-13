@@ -11,6 +11,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   newArchEnabled: true,
   scheme: 'zift',
   splash: {
+    image: './assets/splash.png',
     backgroundColor: '#1A1814',
     resizeMode: 'contain',
   },
@@ -24,7 +25,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       NSPhotoLibraryUsageDescription:
         'O ZIFT precisa acessar suas fotos para selecionar imagens dos presenteados.',
     },
-  },
+},
   android: {
     adaptiveIcon: {
       backgroundColor: '#1A1814',
