@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx expo-doctor@latest)",
+      "Bash(dir /s \"C:\\\\Users\\\\MarcosPauloReis\\\\Desktop\\\\zift\")",
+      "Bash(wc:*)",
+      "Bash(npm install)",
+      "Bash(npm view:*)",
+      "Bash(node -e:*)",
+      "Bash(npx expo install:*)",
+      "Bash(del \"C:\\\\Users\\\\MarcosPauloReis\\\\Desktop\\\\zift\\\\app.json\")",
+      "Bash(powershell:*)",
+      "Bash(python3:*)",
+      "Bash(python:*)"
+    ]
+  }
+}
