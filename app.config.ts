@@ -11,7 +11,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   newArchEnabled: true,
   scheme: 'zift',
   splash: {
-    image: './assets/splash.png',
+    image: './assets/splash.jpg',
     backgroundColor: '#1A1814',
     resizeMode: 'contain',
   },
