@@ -59,5 +59,8 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   extra: {
     openaiApiKey: process.env.OPENAI_API_KEY || '',
+    eas: {
+      projectId: '1cc3b866-3206-4d01-ab37-3bb06abd7095',
+    },
   },
 });
